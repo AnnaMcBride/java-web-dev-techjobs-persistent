@@ -27,7 +27,6 @@ public class EmployerController {
     private SkillRepository skillRepository;
 
 
-
     @RequestMapping("")
     public String saveAddEmployerForm(Model model){
         model.addAttribute("employers", employerRepository.findAll());
