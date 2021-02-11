@@ -84,11 +84,6 @@ public class HomeController {
         }
     }
 
-//    @GetMapping("list-jobs")
-//    public String jobsViewAll(Model model) {
-//        model.addAttribute("jobs", jobRepository.findAll());
-//        return "list-jobs";
-//    }
 
 
 }
