@@ -17,6 +17,8 @@ public class Employer extends AbstractEntity {
     @NotBlank(message = "This field cannot be left blank.")
     private String location;
 
+
+
     @OneToMany
     @JoinColumn
     private List<Job> jobs = new ArrayList<Job>();
