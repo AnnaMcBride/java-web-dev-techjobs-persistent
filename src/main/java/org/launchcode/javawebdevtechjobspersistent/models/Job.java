@@ -2,7 +2,7 @@ package org.launchcode.javawebdevtechjobspersistent.models;
 
 import javax.persistence.*;
 import java.util.List;
-import java.util.ArrayList;
+
 
 
 @Entity
